@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/tiempoFragment">
+    app:startDestination="@id/heroinasFragment">
 
     <fragment
-        android:id="@+id/tiempoFragment"
-        android:name="com.example.livedata_08.TiempoFragment"
+        android:id="@+id/heroinasFragment"
+        android:name="com.example.livedata_08.HeroinasFragment"
         android:label="fragment_tiempo"
-        tools:layout="@layout/fragment_tiempo" />
+        tools:layout="@layout/fragment_heroinas" />
 </navigation>
