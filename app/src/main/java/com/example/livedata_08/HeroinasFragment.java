@@ -29,6 +29,7 @@ public class HeroinasFragment extends Fragment {
 
         HeroinaViewModel heroinaViewModel = new ViewModelProvider(this).get(HeroinaViewModel.class);
 
+        // Gestionamos los datos del xml mediante observe() a HeroinaProvider
         heroinaViewModel.obtenerHeroina().observe(getViewLifecycleOwner(), new Observer<Heroina.HeroinaProvider>() {
             @Override
             public void onChanged(Heroina.HeroinaProvider heroinaProvider) {
